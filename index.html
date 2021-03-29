@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
     <title>Portfolio</title>
 </head>
 
@@ -26,9 +27,9 @@
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">ABOUT</a></li>
-                    <li><a href="#">PORTFOLIO</a></li>
-                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
                 </ul>
             </div>
         </div>
@@ -36,20 +37,53 @@
 
     <!-- First Container -->
     <div class="container-fluid bg-1 text-center">
-        <h3 class="margin">ABOUT</h3>
+        <h3 class="margin">HELLO THERE!</h3>
         <img src="christine.jpg" class="img-responsive img-circle margin" style="display:inline" alt="ME" width="350"
             height="350">
-        <h3>ABOUT</h3>
     </div>
 
     <!-- Second Container -->
     <div class="container-fluid bg-2 text-center">
-        <h3 class="margin">PORTFOLIO</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo consequat. </p>
+        <h3 id="about" class="margin">ABOUT ME</h3>
+        <p>Welcome to my portfolio! <br> I'm currently enrolled from a bootcamp - University of Washington - to
+            learn deeper into coding. I am passionate about photography and videography and I love working with
+            anything that can show my creativity. Within a month into bootcamp I learned HTML, CSS and
+            Javascript. I still have a long way to go to fully understand what each code does, but within the
+            next 6 months I can't to see how much I progress I made. I truly believe that learning never stops
+            and it's never too late to make a big change to better the future.</p>
     </div>
 
+    
+
+    <!-- Third Container (Grid) -->
+    <div class="container-fluid bg-3 text-center">
+        <h3 id="portfolio" class="margin">PORTFOLIO</h3><br>
+        <div class="row">
+            <div class="col-sm-4">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.</p>
+                <img src="christine.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+            </div>
+            <div class="col-sm-4">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.</p>
+                <img src="christine.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+            </div>
+            <div class="col-sm-4">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.</p>
+                <img src="christine.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="container-fluid bg-4 text-center">
+        <h3 id="contact" class="margin">CONTACT</h3>
+    </footer>
+
+    
+  
 </body>
 
 </html>
