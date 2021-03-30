@@ -13,6 +13,7 @@ p {
     margin-bottom: 45px;
 }
 
+/* Animation for "Hi there! */
 h1 {
     animation-duration: 3s;
     animation-name: slidein;
