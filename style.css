@@ -53,3 +53,7 @@ p {
     padding-top: 70px;
     padding-bottom: 70px;
 }
+
+svg {
+    margin-right: 5%;
+}
