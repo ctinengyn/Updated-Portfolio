@@ -31,4 +31,4 @@ A portfolio tells the story about a person, the character, and the journey to ov
 
 The link below shows my portfolio:
 [Christine's Portfolio](https://ctinengyn.github.io/Portfolio/)
-![Christine's Portfolio](update.jpeg)
+![Christine's Portfolio](./images/update.jpeg)
